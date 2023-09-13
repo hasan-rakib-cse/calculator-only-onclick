@@ -38,12 +38,16 @@ form .display {
 form .display input {
     text-align: right;
     flex: 1;
-    font-size: 40px;
-    box-shadow: none;
+    font-size: 34px;
+    padding: 0px 10px;
+    /* box-shadow: none; */
 }
 form .last-div {
     display: flex;
 }
 form .last-div input.equal {
     flex: 1;
-} 
+}
+form input.operator {
+    color: #33ffd8;
+}
